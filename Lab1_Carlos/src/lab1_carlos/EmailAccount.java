@@ -8,7 +8,7 @@ package lab1_carlos;
  *
  * @author CarlosXl
  */
-public class EmailAccount {
+public class EmailAccount  {
 
     /**
      * @param args the command line arguments
@@ -46,7 +46,11 @@ public class EmailAccount {
            }
        }
        return false;
-   }    
+   }   
+   public void printInbox(){
+       EmailGUI print = new EmailGUI();
+       print.Impresion();
+   }
    public Email[] getInbox(){
        return inbox;
    }
