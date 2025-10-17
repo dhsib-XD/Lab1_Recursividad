@@ -45,5 +45,6 @@ public class Email {
     public String toString() {
         return (leido ? "✓ " : "✉ ") + emisor + " - " + asunto;
     }
+    
 }
 
