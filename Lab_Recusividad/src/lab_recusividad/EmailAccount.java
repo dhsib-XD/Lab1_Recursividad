@@ -34,7 +34,7 @@ public class EmailAccount {
     public String getNombreUsuario() {
         return nombreUsuario;
     }
-    public void recibirEmail(Email em){
+    public void recibirEmail(int a){
         
     }
 }
