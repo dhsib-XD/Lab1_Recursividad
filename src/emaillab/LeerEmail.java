@@ -2,19 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package email;
+package emaillab;
 
 /**
  *
  * @author CarlosXl
  */
-public class Email {
+public class LeerEmail {
     private String emisor;
     private String asunto;
     private String contenido;
     private boolean leido;
 
-    public Email(String emisor, String asunto, String contenido) {
+    public LeerEmail(String emisor, String asunto, String contenido) {
         this.emisor = emisor;
         this.asunto = asunto;
         this.contenido = contenido;
